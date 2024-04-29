@@ -1,0 +1,58 @@
+body{
+  background-color:rgba(255, 68, 0, 0.699);
+}
+.card {
+  background-color:rgba(255, 255, 255);
+  font-family: lato, serif;
+  color:rgb(13, 54, 158);
+  font-size: 12px;
+  text-align: center;
+  padding:15px;
+  margin: 10px auto;
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(13, 54, 158);
+  text-decoration: none;
+  background-color: rgba(194, 9, 9, 0.37);
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color:black;
+  background-color: brown;
+}
+
+i {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+#website {
+  padding: 12px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
